@@ -1,0 +1,80 @@
+
+/*##### Pics for slide show #####*/
+.pics{
+    display: none;
+}
+
+/*##### Format for profile #####*/
+.profile-body{
+    background-color: blue;
+    background-image: url(images/OIP.jfif); 
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.title{
+    color: red;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    align-items: top;
+    justify-content: center;
+}
+
+.profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.info{
+    font-weight: bold;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio{
+    background-color: blue;
+    color: white;
+    font-size: large;
+}
+
+a{
+    color:tomato;
+}
+
+a:hover{
+    background-color: darkblue;
+    color: darkgoldenrod;
+    font-size: x-large;
+}
+
+.mainPage{
+    background-image: url('images/xmastree-1.jpg');
+}
+
+.mainLink{
+    background-color: black;
+    color: lightgreen;
+}
+
+.mainLink:hover{
+    background-color: darkred;
+    color: snow;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#quote{
+    border: blue;
+    border-width: 5px;
+}
